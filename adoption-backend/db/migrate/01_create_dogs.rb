@@ -5,6 +5,7 @@ class CreateDogs < ActiveRecord::Migration[5.2]
       t.integer :age
       t.string :breed
       t.string :img
+      t.string :location
 
       t.timestamps
     end

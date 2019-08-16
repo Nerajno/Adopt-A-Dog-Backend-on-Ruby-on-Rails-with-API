@@ -1,3 +1,3 @@
 class Adoption < ApplicationRecord
-  belongs_to: :dogs,:users
+  # belongs_to :dogs,:users
 end
