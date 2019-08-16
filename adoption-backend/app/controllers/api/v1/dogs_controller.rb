@@ -10,6 +10,30 @@ class Api::V1::DogsController < ApplicationController
       render json: dog
     end
 
+    def edit
+      @dog = Dog.find(params[:id])
+      render json: dog
+    end
+
+    def update
+      @dog = Dog.find(params[:id])
+      if @dog.update(dog_params)
+        redirect_to dog_path(@dog)
+      else
+        render json: dog
+      end
+    end
+
+
+    def destroy
+        @cdog = Dog.find(params[:id])
+        @dog.destroy
+        redirect_to dogs_path
+        render json: dog
+    end
+
+
+
 
 
 
