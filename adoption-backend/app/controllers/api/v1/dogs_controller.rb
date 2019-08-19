@@ -26,7 +26,7 @@ class Api::V1::DogsController < ApplicationController
 
 
     def destroy
-        @cdog = Dog.find(params[:id])
+        @dog = Dog.find(params[:id])
         @dog.destroy
         redirect_to dogs_path
         render json: dog

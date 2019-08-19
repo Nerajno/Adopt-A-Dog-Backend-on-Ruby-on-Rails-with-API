@@ -9,8 +9,8 @@ Dog.destroy_all
 User.destroy_all
 Adoption.destroy_all
 
-dog1 = Dog.create(name:"Skittles",age: 2, breed: "bulldog", img:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Axel%2C_the_English_Bulldog.jpg/170px-Axel%2C_the_English_Bulldog.jpg", location: "Atlanta, GA")
-dog2 = Dog.create(name:"Aero", age: 1, breed:"labrador", img:"https://www.petbarn.com.au/petspot/app/uploads/2016/08/02.-Labrador-retriever.jpg", location:"Miami, FL")
+dog1 = Dog.create(name:"Skittles",age: 2, breed: "Bulldog", img:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Axel%2C_the_English_Bulldog.jpg/170px-Axel%2C_the_English_Bulldog.jpg", location: "Atlanta, GA")
+dog2 = Dog.create(name:"Aero", age: 1, breed:"Labrador", img:"https://www.petbarn.com.au/petspot/app/uploads/2016/08/02.-Labrador-retriever.jpg", location:"Miami, FL")
 dog3 = Dog.create(name:"Dallas", age: 3, breed:"Poodle", img:"https://vetstreet.brightspotcdn.com/dims4/default/821e355/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fe0%2F19%2F7bdd32d6439bbd372173e70b31f4%2FAP-0USS4I-ph645080113.jpg", location:"Columbia, SC")
 dog4 = Dog.create(name:"Danica", age: 4, breed:"Beagle", img:"https://cdn1-www.dogtime.com/assets/uploads/2011/01/file_23012_beagle-460x290.jpg", location:"Nashville, TN")
 dog6 = Dog.create(name:"Grizzly", age: 5, breed:"Chihuahua", img:"https://www.ctvsh.com/sites/default/files/styles/large/adaptive-image/public/chihuahua-dog-breed-info.jpg?itok=1gl8QaZt", location:"Raleigh, NC")
@@ -18,6 +18,11 @@ dog7 = Dog.create(name:"Honey Blue", age: 6, breed:"German Shepard", img:"https:
 dog8 = Dog.create(name:"Keaton", age: 7, breed:"Pug", img:"https://vetstreet.brightspotcdn.com/dims4/default/354d0cf/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fdc%2Fc4%2F8ccd3a28438d81b2f2f5d8031a05%2Fpug-ap-r82p3q-645.jpg", location:"Washington DC")
 dog9 = Dog.create(name:"King Arthur", age: 8, breed: "Greyhound", img:"https://vetstreet.brightspotcdn.com/dims4/default/62b9061/2147483647/thumbnail/645x380/quality/90/?url=https%3A%2F%2Fvetstreet-brightspot.s3.amazonaws.com%2Fe7%2Fa7%2F1ca411274abab84388a7409dfcc9%2Fgreyhound-ap-qlvhmt-645-x-380.jpg", location:"Austin, TX")
 dog5 = Dog.create(name:"Picasso", age: 9, breed:"Siberian Husky", img:"https://upload.wikimedia.org/wikipedia/commons/a/a3/Black-Magic-Big-Boy.jpg", location:"New Orleans, LA")
+dog6 = Dog.create(name:"Monster", age: 4, breed:"Collie", img:"https://upload.wikimedia.org/wikipedia/commons/4/48/Rough_Collie_600.jpg", location:"Atlanta,GA")
+dog7 = Dog.create(name:"Sissy", age: 2, breed:"Scottish Deerhound", img:"https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12212344/Scottish-Deerhounds-on-White-Care-e1553012263422-500x474.jpg", location:"Nashiville, TN")
+dog8 = Dog.create(name:"Mustard", age: 3, breed:"Shar Pei", img:"https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/shar-pei-card-small.jpg?bust=1535567415", location:"Miami,Fl")
+dog9 = Dog.create(name:"Bloody Mary", age: 7, breed:"Bloodhound", img:"http://www.pethealthnetwork.com/sites/default/files/styles/large/public/the-bloodhound78739210.png?itok=y331wXSe", location:"Austin, TX")
+dog10 = Dog.create(name:"Pickles", age: 3, breed:"American Water Spanial", img:"https://www.petguide.com/wp-content/uploads/2013/02/American-Water-Spaniel.jpg", location:"Washington DC")
 
 user1 = User.create(name:"Swofford", age: 29,img:"https://ca.slack-edge.com/T02MD9XTF-UHZCRN42H-1736b9fef3cc-192")
 user2 = User.create(name:"Nerando", age:28, img:"https://ca.slack-edge.com/T02MD9XTF-UHQ40G325-464d59a5c437-72")
