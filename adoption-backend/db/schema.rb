@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_08_16_143517) do
   create_table "adoptions", force: :cascade do |t|
     t.string "name"
     t.string "location"
+    t.string "img"
     t.integer "dog_id"
     t.integer "user_id"
     t.datetime "created_at", null: false
@@ -29,7 +30,8 @@ ActiveRecord::Schema.define(version: 2019_08_16_143517) do
     t.integer "age"
     t.string "breed"
     t.string "img"
-    t.string "location"
+    t.string "dog_location"
+    t.string "adoption_location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
