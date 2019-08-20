@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_08_16_143517) do
   create_table "adoptions", force: :cascade do |t|
     t.string "name"
     t.string "location"
+    t.string "dogs_available"
     t.string "img"
     t.integer "dog_id"
     t.integer "user_id"
